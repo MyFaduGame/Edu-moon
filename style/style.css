@@ -1,0 +1,750 @@
+@media (min-width: 1024px)
+{
+	body
+	{
+		background-color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.logo
+	{
+		border:0px solid black;
+		height: 100px;
+		width: 100%; 
+		
+		text-align: right;
+		background-color: #f5f5dc;
+	}
+	.index_link
+	{
+		text-decoration: none;
+		
+	}
+	.index_link:visited
+	{
+		text-decoration:none;
+	}
+	.index_link:hover
+	{
+		text-decoration:none;
+	}
+	.index_link:active
+	{
+		text-decoration:none;
+	}
+	.slogan
+	{
+		border:0px solid black;
+		border-radius: 4px;
+		height: 100px;
+		width:100%;
+		margin-top: -66px;
+		background-color: #66CCCC;
+		padding-top: 20px;
+
+	}
+	.login_link
+	 {
+	 	margin-top: 10px;
+	 	margin-left: 20px;
+		background-color: #b19cd9; /* light purple */
+		border: none;
+		color: white;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+
+	}
+	.line
+	{
+		text-align: center;
+		margin-top: -50px;
+		font-size: 45px;
+	}
+	
+	.menu_html
+	{
+		border:1px solid black;
+		height: 400px;
+		width: 200px;
+		float: right;
+		margin-top: -402px;
+	}
+	.portion_html
+	{
+		border:1px solid black;
+		height: 100%;
+		width: 1146px;
+	}
+	.definetion
+	{
+		font-family: Restora,Alegreya,grenze,serif;
+		width: 500px;
+		font-size: 50px;
+		text-align: center;
+		color: white;
+	}
+	.list-1
+	{
+		list-style-type: none;
+	}
+	.footlogo
+	{
+		border:0px solid black;
+		text-align: right;
+	}
+	.footmenu
+	{
+		border: 0px solid black;
+
+	}
+	.menu1
+	{
+		border:0px solid black;
+		width: 100%;
+		background-color: transparent;
+	}
+	
+	.sort 
+	{
+		text-decoration: none;
+		color:grey ;
+
+	}
+	.reserve
+	{
+		border: 1px solid black;
+		background-color: lightblue;
+		border-radius: 5px;
+		text-align: center;
+	}
+	.form
+	{
+		width: 70%;
+		border: 3px solid #f1f1f1;
+	}
+	input[type=text], input[type=password] 
+	{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+	.button1
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	}
+
+	.button1:hover 
+	{
+	  opacity: 0.8;
+	}
+
+	.cancelbtn 
+	{
+	  width: auto;
+	  padding: 10px 18px;
+	  background-color: #f44336;
+	  border: none;
+	  color: white;
+	  margin-left: -250px;
+	}
+
+	.imgcontainer 
+	{
+	  text-align: center;
+	  margin: 24px 0 12px 0;
+	}
+
+	img.avatar {
+	  width: 40%;
+	  border-radius: 50%;
+	}
+
+	.container 
+	{
+	  padding: 16px;
+	}
+
+	span.psw 
+	{
+	  float: right;
+	  padding-top: 16px;
+	}
+	.newstu
+	{
+		margin-left: 280px;
+	}
+	.SignUp
+	{
+		text-decoration: none;
+		color: black;
+	}
+	.SignUp:hover
+	{
+		text-decoration: none;
+		opacity: 0.8;
+		color: black;
+
+	}
+	.SignUp:active
+	{
+		text-decoration: none;
+		color: hotpink;
+	}
+	.SignUp:visited
+	{
+		color: purple;
+		text-decoration: none;
+	}
+	input[type=text]:focus, input[type=password]:focus {
+	  background-color: #ddd;
+	  outline: none;
+	}
+
+	hr {
+	  border: 1px solid #f1f1f1;
+	  margin-bottom: 25px;
+	}
+
+	/* Set a style for all buttons */
+	.button2 {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	  opacity: 0.9;
+	}
+
+	.button2:hover {
+	  opacity:1;
+	}
+
+	/* Extra styles for the cancel button */
+	.cancelbtn2 {
+	  padding: 14px 20px;
+	  background-color: #f44336;
+	  color: white;
+	  border: none;
+	}
+
+	/* Float cancel and signup buttons and add an equal width */
+	.cancelbtn2, .signupbtn2 {
+	  float: left;
+	  width: 50%;
+	}
+	.signupbtn2
+	{
+		padding: 14px 20px;
+		background-color: #4CAF50;
+		color: white;
+	 	border: none;
+	}
+
+	/* Add padding to container elements */
+	.container {
+	  padding: 16px;
+	}
+
+	/* Clear floats */
+	.clearfix::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	.htmlcontent{
+		border: 2px solid black;
+		height: 500px;
+		width: 100%;
+		border-radius:  10px;
+	}
+	.backcontent
+	{
+		border: 2px solid black;
+		height: 500px;
+		width: 100%;
+		border-radius:  10px;
+	}
+	.html1,.css1,.js1,.java1,.php1,.more
+	{
+		border: 1px solid black;
+	}
+	.html1,.css1,.js1,.java1,.php1,.more
+	{
+		height: 250px;
+		width: 33.20%;
+	}
+	.html1
+	{
+		margin: 0px;
+		margin-top: 100px;
+		border-radius: 10px;
+	}
+	.css1
+	{
+		margin-left:  33.43%;
+		margin-top:-252px;
+		border-radius: 10px;
+	}
+	.js1
+	{
+		margin-left: 66.76%;
+		margin-top: -252px;
+		border-radius: 10px;
+	}
+	.learnbutton
+	{
+		margin-top: 0px;
+	 	margin-left: 0px;
+		background-color: #b19cd9; /* light purple */
+		border: none;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+			
+		height: 30px;
+		width: 100%;
+		box-shadow: white;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+	.img1
+	{
+		height: 217px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.java1
+	{
+		margin: 0px;
+		margin-top: 100px;
+		border-radius: 10px;
+	}
+	.php1
+	{
+		margin-left:  33.43%;
+		margin-top:-252px;
+		border-radius: 10px;
+	}
+	.more
+	{
+		margin-left: 66.76%;
+		margin-top: -252px;
+		border-radius: 10px;
+	}
+	.certificate
+	{
+		border: 0px solid black;
+		height: auto;
+		width: 100%;
+	}
+	.contactus
+	{
+		border: 0px solid black;
+		height: auto;
+		width: 100%;
+	}
+	.qrcode
+	{
+		border: 0px solid black;
+		height: 250px;
+		width: 280px;
+	}
+	.msg
+	{
+		border: 0px solid black;
+		height: 250px;
+		width: 78.70%;
+		margin-left: 282px;
+		margin-top:  -253px;
+	}
+	.content
+	{
+		border: 2px solid gainsboro;
+		height: auto;
+		width: 100%;
+	}
+	.back 
+	{
+		border: 1px solid black;
+		height: auto;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.description
+	{
+		border: 1px solid black;
+		height:500px;
+		border-radius:10px;
+		
+		
+	}
+	.video
+	{
+		border: none;
+	}
+	.mor
+	{
+		border: 1px solid black;
+	}
+}
+@media (max-width: 1023px)
+{
+	body
+	{
+		background-color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+	.logo
+	{
+		border:0px solid black;
+		height: 100px;
+		width: 100%; 
+		
+		text-align: right;
+		background-color: #f5f5dc;
+	}
+	.index_link
+	{
+		text-decoration: none;
+		
+	}
+	.index_link:visited
+	{
+		text-decoration:none;
+	}
+	.index_link:hover
+	{
+		text-decoration:none;
+	}
+	.index_link:active
+	{
+		text-decoration:none;
+	}
+	.slogan
+	{
+		border:0px solid black;
+		border-radius: 4px;
+		height: 100px;
+		width:100%;
+		margin-top: -66px;
+		background-color: #66CCCC;
+		padding-top: 20px;
+
+	}
+	.login_link
+	 {
+	 	margin-top: 10px;
+	 	margin-left: 20px;
+		background-color: #b19cd9; /* light purple */
+		border: none;
+		color: white;
+		width: 20px;
+		padding: 15px 32px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		font-size: 16px;
+
+	}
+	.line
+	{
+		text-align: center;
+		margin-top: -50px;
+		font-size: 25px;
+	}
+	.footlogo
+	{
+		border:0px solid black;
+		text-align: right;
+	}
+	.footmenu
+	{
+		border: 0px solid black;
+
+	}
+	.menu1
+	{
+		border:0px solid black;
+		width: 100%;
+		background-color: transparent;
+	}
+	
+	.sort 
+	{
+		text-decoration: none;
+		color:grey ;
+
+	}
+	.reserve
+	{
+		border: 1px solid black;
+		background-color: lightblue;
+		border-radius: 5px;
+		text-align: center;
+	}
+	.form
+	{
+		border: 3px solid #f1f1f1;
+	}
+	input[type=text], input[type=password] 
+	{
+		width: 100%;
+		padding: 12px 20px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		box-sizing: border-box;
+	}
+
+	.button1
+	{
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	}
+
+	.button1:hover 
+	{
+	  opacity: 0.8;
+	}
+
+	.cancelbtn 
+	{
+	  width: auto;
+	  padding: 10px 18px;
+	  border: none;
+	  color: white;
+	  background-color: #f44336;
+	   margin-left: -250px;
+	}
+
+	.imgcontainer 
+	{
+	  text-align: center;
+	  margin: 24px 0 12px 0;
+	}
+
+	img.avatar {
+	  width: 40%;
+	  border-radius: 50%;
+	}
+
+	.container 
+	{
+	  padding: 16px;
+	}
+
+	span.psw 
+	{
+	  float: right;
+	  padding-top: 16px;
+	}
+	.newstu
+	{
+		margin-left: 280px;
+	}
+	.SignUp
+	{
+		text-decoration: none;
+		color: black;
+	}
+	.SignUp:hover
+	{
+		text-decoration: none;
+		opacity: 0.8;
+		color: black;
+
+	}
+	.SignUp:active
+	{
+		text-decoration: none;
+		color: hotpink;
+	}
+	.SignUp:visited
+	{
+		color: purple;
+		text-decoration: none;
+	}
+	input[type=text]:focus, input[type=password]:focus {
+	  background-color: #ddd;
+	  outline: none;
+	}
+
+	hr {
+	  border: 1px solid #f1f1f1;
+	  margin-bottom: 25px;
+	}
+
+	/* Set a style for all buttons */
+	.button2 {
+	  background-color: #4CAF50;
+	  color: white;
+	  padding: 14px 20px;
+	  margin: 8px 0;
+	  border: none;
+	  cursor: pointer;
+	  width: 100%;
+	  opacity: 0.9;
+	}
+
+	.button2:hover {
+	  opacity:1;
+	}
+
+	/* Extra styles for the cancel button */
+	.cancelbtn2 {
+	  padding: 14px 20px;
+	  background-color: #f44336;
+	  color: white;
+	  border: none;
+	}
+
+	/* Float cancel and signup buttons and add an equal width */
+	.cancelbtn2, .signupbtn2 {
+	  float: left;
+	  width: 50%;
+	}
+	.signupbtn2
+	{
+		padding: 14px 20px;
+		background-color: #4CAF50;
+		color: white;
+	 	border: none;
+	}
+
+	/* Add padding to container elements */
+	.container {
+	  padding: 16px;
+	}
+
+	/* Clear floats */
+	.clearfix::after {
+	  content: "";
+	  clear: both;
+	  display: table;
+	}
+	.htmlcontent{
+		border: 2px solid black;
+		height: auto;
+		width: 100%;
+		border-radius:  10px;
+	}
+	.backcontent
+	{
+		border: 2px solid black;
+		height: auto;
+		width: 100%;
+		border-radius:  10px;
+	}
+	.html1,.css1,.js1,.java1,.php1,.more
+	{
+		border: 1px solid black;
+	}
+	.html1,.css1,.js1,.java1,.php1,.more
+	{
+		height: 250px;
+		width: 100%;
+	}
+	.html1
+	{
+		border-radius: 10px;
+	}
+	.css1
+	{
+		border-radius: 10px;
+	}
+	.js1
+	{
+		border-radius: 10px;
+	}
+	.learnbutton
+	{
+		margin-top: 0px;
+	 	margin-left: 0px;
+		background-color: #b19cd9; /* light purple */
+		border: none;
+		color: white;
+		padding: 0px 0px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+			
+		height: 30px;
+		width: 100%;
+		box-shadow: white;
+		border-radius: 10px;
+		font-size: 20px;
+	}
+	.img1
+	{
+		height: 217px;
+		width: 100%;
+		border-radius: 10px;
+	}
+	.java1
+	{
+		border-radius: 10px;
+	}
+	.php1
+	{
+		border-radius: 10px;
+	}
+	.more
+	{
+		border-radius: 10px;
+	}
+	.certificate
+	{
+		border: 0px solid black;
+		height: auto;
+		width: 100%;
+	}
+	.contactus
+	{
+		border: 0px solid black;
+		height: auto;
+		width: 100%;
+	}
+	.qrcode
+	{
+		border: 0px solid black;
+		height: 250px;
+		width: 280px;
+	}
+	.msg
+	{
+		border: 0px solid black;
+		height: 250px;
+		width: 64.70%;
+		margin-left: 282px;
+		margin-top:  -253px;
+	}
+	.back 
+	{
+		border: 1px solid black;
+		height: auto;
+		width: 100%;
+		border-radius: 10px;
+		
+	}
+}
